@@ -1,5 +1,17 @@
 # Decimal2Binary-Tool
-Welcome to Decimal2Binary-Tool, your go-to resource for swiftly converting decimal numbers to their binary equivalents. This tool, crafted with efficiency and simplicity in mind, streamlines the process of decimal-to-binary conversion, aiding both beginners and seasoned programmers alike.
+The program prompts the user to input a decimal number. It then utilizes a function decimalToBinary() to convert the decimal number into its binary representation. The conversion process involves iterative division by 2 and storing remainders until the quotient becomes zero. Finally, the binary representation is displayed to the user.
 
-With Decimal2Binary-Tool, you can effortlessly transform decimal numbers into binary representations, gaining insights into the fundamental principles of binary arithmetic. Whether you're a student exploring the basics of computer science or a professional seeking a handy utility for everyday tasks, this repository is designed to cater to your needs.
+Usage
+To use this program:
 
+Compile the source code using a C++ compiler.
+Run the compiled executable.
+Enter a decimal number when prompted.
+The program will output the binary equivalent of the entered decimal number.
+
+Example
+Enter a decimal number: 10
+Binary equivalent: 1010
+
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
